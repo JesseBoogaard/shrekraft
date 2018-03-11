@@ -1,0 +1,10 @@
+{
+  "variants": {
+      "normal": {
+        "model":"shrekraft:blockearwaxcandle"
+      },
+      "inventory": {
+        "model": "shrekraft:blockearwaxcandle"
+      }
+  }
+}

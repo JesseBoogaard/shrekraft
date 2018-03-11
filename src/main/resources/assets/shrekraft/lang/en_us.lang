@@ -4,3 +4,7 @@ item.ItemCottonSwab.name=Cotton Swab
 item.ItemEarwax.name=Earwax
 
 itemGroup.shrekraft=ShreKraft
+
+#Blocks
+tile.BlockCompactedEarwax.name=Compacted Earwax
+tile.BlockEarwaxCandle.name=Earwax Candle

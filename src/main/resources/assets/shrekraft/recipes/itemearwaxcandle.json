@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "B",
+    "B"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:String"
+    },
+    "B": {
+      "item": "shrekraft:BlockCompactedEarwax"
+    }
+  },
+  "result": {
+    "item": "shrekraft:BlockEarwaxCandle"
+  }
+}

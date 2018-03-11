@@ -1,5 +1,6 @@
 package com.jesseboogaard.shrekraft;
 
+import com.jesseboogaard.shrekraft.blocks.shrekraftBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
@@ -50,6 +51,16 @@ public class shrekraft {
         @SubscribeEvent
         public static void registerItems(RegistryEvent.Register<Item> event) {
             shrekraftItems.register(event.getRegistry());
+            shrekraftBlocks.registerItemBlocks(event.getRegistry());
+        }
+
+        @SubscribeEvent
+        public static void registerBlocks(RegistryEvent.Register<Block> event) {
+            shrekraftBlocks.register(event.getRegistry());
+        }
+        @SubscribeEvent
+        public static void registerModels(ModelRegistryEvent event) {
+            shrekraftBlocks.registerModels();
         }
     }
 }
