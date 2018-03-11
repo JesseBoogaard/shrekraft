@@ -1,0 +1,16 @@
+[
+{
+  "modid": "shrekraft",
+  "name": "ShreKraft",
+  "description": "Shrek for Minecraft",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Jesse Boogaard", "Dennis Blokland", "Roel Versteeg"],
+  "credits": "Get out of my swamp. -Shrek",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
