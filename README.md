@@ -1,4 +1,4 @@
-***SHREKRAFT 1.12.2
+***SHREKRAFT 1.12.2***
 
 **ShreKraft adds many things to Minecraft**
 
