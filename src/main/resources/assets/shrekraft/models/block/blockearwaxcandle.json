@@ -4,6 +4,57 @@
     "1": "shrekraft:blocks/fuse",
     "particle": "shrekraft:blocks/blockcompactedearwax"
   },
+  "display": {
+      "thirdperson_righthand": {
+
+        "rotation": [ 0, 0, 0 ],
+
+        "translation": [ 0, 4, 0 ],
+
+        "scale": [ 1, 1, 1 ]
+
+      },
+
+      "thirdperson_lefthand": {
+
+        "rotation": [ 0, 0, 0 ],
+
+        "translation": [ 0, 4, 0 ],
+
+        "scale": [ 1, 1, 1 ]
+
+      },
+
+      "firstperson_righthand": {
+
+        "rotation": [ 0, -90, 25 ],
+
+        "translation": [ 1.13, 5.2, 1.13],
+
+        "scale": [ 1, 1, 1 ]
+
+      },
+
+      "firstperson_lefthand": {
+
+        "rotation": [ 0, 90, -25 ],
+
+        "translation": [ 1.13, 5.2, 1.13],
+
+        "scale": [ 1, 1, 1 ]
+
+      },
+    "gui": {
+      "rotation": [ 45, 22.5, 0 ],
+      "translation": [ 0, 5, 0 ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    }
+  },
+
   "elements": [
     {
       "name": "cube",
@@ -65,7 +116,7 @@
             0.09999999999999998,
             0.20000000000000018
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "east": {
           "uv": [
@@ -74,7 +125,7 @@
             0.09999999999999998,
             0.20000000000000018
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "south": {
           "uv": [
@@ -83,7 +134,7 @@
             0.09999999999999998,
             0.20000000000000018
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "west": {
           "uv": [
@@ -92,7 +143,7 @@
             0.09999999999999998,
             0.20000000000000018
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "up": {
           "uv": [
@@ -101,7 +152,7 @@
             0.09999999999999998,
             0.09999999999999998
           ],
-          "texture": "#missing"
+          "texture": "#1"
         },
         "down": {
           "uv": [
@@ -110,7 +161,7 @@
             0.09999999999999998,
             0.09999999999999998
           ],
-          "texture": "#missing"
+          "texture": "#1"
         }
       },
       "type": "cube"
