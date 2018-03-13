@@ -15,7 +15,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import java.util.Random;
 
 public class BlockEarwaxCandle extends shrekraftBaseBlock{
-    private final AxisAlignedBB box = new AxisAlignedBB(0.4000000059604645D, 0.0D, 0.4000000059604645D, 0.6000000238418579D, 0.4D, 0.6000000238418579D);
+    private final AxisAlignedBB box = new AxisAlignedBB(0.4000000059604645D, 0.0D, 0.340000059604645D, 0.6000000238418579D, 0.4D, 0.6000000238418579D);
 
     public BlockEarwaxCandle(String name) {
         super(Material.WOOD, name);

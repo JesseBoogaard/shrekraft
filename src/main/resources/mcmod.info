@@ -2,14 +2,14 @@
 {
   "modid": "shrekraft",
   "name": "ShreKraft",
-  "description": "Shrek for Minecraft",
+  "description": "ShreKraft is Shrek for Minecraft, adds a bunch of gross and fun stuff.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
+  "url": "http://www.jesseboogaard.com/",
+  "updateUrl": "https://minecraft.curseforge.com/projects/shrekraft",
   "authorList": ["Jesse Boogaard", "Dennis Blokland", "Roel Versteeg"],
   "credits": "Get out of my swamp. -Shrek",
-  "logoFile": "",
+  "logoFile": "logo.png",
   "screenshots": [],
   "dependencies": []
 }

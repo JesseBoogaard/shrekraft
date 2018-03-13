@@ -8,10 +8,12 @@ public class shrekraftBlocks {
 
     public static BlockCompactedEarwax blockCompactedEarwax = new BlockCompactedEarwax("BlockCompactedEarwax");
     public static BlockEarwaxCandle blockEarwaxCandle = new BlockEarwaxCandle("BlockEarwaxCandle");
+    public static BlockCropOnion blockCropOnion = new BlockCropOnion();
     public static void register(IForgeRegistry<Block> registry) {
         registry.registerAll(
                 blockCompactedEarwax,
-                blockEarwaxCandle
+                blockEarwaxCandle,
+                blockCropOnion
         );
     }
 

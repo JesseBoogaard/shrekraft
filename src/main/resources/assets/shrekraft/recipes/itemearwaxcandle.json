@@ -14,6 +14,7 @@
     }
   },
   "result": {
-    "item": "shrekraft:BlockEarwaxCandle"
+    "item": "shrekraft:BlockEarwaxCandle",
+    "count": 4
   }
 }
