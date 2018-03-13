@@ -11,8 +11,8 @@ public class ItemOnion extends ItemSeeds {
 
     public ItemOnion() {
         super(shrekraftBlocks.blockCropOnion, Blocks.FARMLAND);
-        setUnlocalizedName("ItemOnionSeed");
-        setRegistryName("ItemOnionSeed");
+        setUnlocalizedName("ItemOnion");
+        setRegistryName("ItemOnion");
         setCreativeTab(shrekraft.shrekraftTab);
 
     }
