@@ -3,6 +3,8 @@
 item.ItemCottonSwab.name=Cotton Swab
 item.ItemEarwax.name=Earwax
 item.ItemOnion.name=Onion
+item.ItemOnionStew.name=Onion Stew
+item.ItemPeeledOnion.name=Peeled Onion
 
 itemGroup.shrekraft=ShreKraft
 

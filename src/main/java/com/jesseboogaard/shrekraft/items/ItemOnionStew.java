@@ -13,12 +13,12 @@ import javax.annotation.Nullable;
 import java.util.List;
 
 
-public class ItemOnion extends ItemSeedFood {
+public class ItemOnionStew extends ItemFood {
 
-    public ItemOnion() {
-        super(4, 0.6F, shrekraftBlocks.blockCropOnion, Blocks.FARMLAND);
-        setUnlocalizedName("ItemOnion");
-        setRegistryName("ItemOnion");
+    public ItemOnionStew() {
+        super(6, 0.6f, false);
+        setUnlocalizedName("ItemOnionStew");
+        setRegistryName("ItemOnionStew");
         setCreativeTab(shrekraft.shrekraftTab);
 
     }
@@ -27,10 +27,10 @@ public class ItemOnion extends ItemSeedFood {
     @Override
     public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn)
     {
-        tooltip.add("Onions have layers, so do Ogres.");
+        tooltip.add("Nasty looking but delicious tasting stew.");
     }
 
     public void registerItemModel(Item item) {
-        shrekraft.proxy.registerItemRenderer(item, 0, "ItemOnion");
+        shrekraft.proxy.registerItemRenderer(item, 0, "ItemOnionStew");
     }
 }

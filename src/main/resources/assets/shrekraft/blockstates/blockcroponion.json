@@ -7,42 +7,42 @@
     "age": {
       "0": {
         "textures": {
-          "cross": "shrekraft:blocks/onion0"
+          "cross": "shrekraft:blocks/onion/0"
         }
       },
       "1": {
         "textures": {
-          "cross": "shrekraft:blocks/onion1"
+          "cross": "shrekraft:blocks/onion/1"
         }
       },
       "2": {
         "textures": {
-          "cross": "shrekraft:blocks/onion2"
+          "cross": "shrekraft:blocks/onion/2"
         }
       },
       "3": {
         "textures": {
-          "cross": "shrekraft:blocks/onion3"
+          "cross": "shrekraft:blocks/onion/3"
         }
       },
       "4": {
         "textures": {
-          "cross": "shrekraft:blocks/onion4"
+          "cross": "shrekraft:blocks/onion/4"
         }
       },
       "5": {
         "textures": {
-          "cross": "shrekraft:blocks/onion5"
+          "cross": "shrekraft:blocks/onion/5"
         }
       },
       "6": {
         "textures": {
-          "cross": "shrekraft:blocks/onion6"
+          "cross": "shrekraft:blocks/onion/6"
         }
       },
       "7": {
         "textures": {
-          "cross": "shrekraft:blocks/onion7"
+          "cross": "shrekraft:blocks/onion/7"
         }
       }
     }

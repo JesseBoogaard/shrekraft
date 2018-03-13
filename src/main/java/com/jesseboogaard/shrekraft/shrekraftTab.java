@@ -11,6 +11,7 @@ public class shrekraftTab extends CreativeTabs {
 
     @Override
     public ItemStack getTabIconItem() {
-        return new ItemStack(shrekraftItems.ItemCottonSwab);
+        return new ItemStack(shrekraftItems.ItemOnion);
     }
+    
 }

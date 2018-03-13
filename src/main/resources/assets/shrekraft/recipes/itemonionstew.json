@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "shrekraft:ItemPeeledOnion"
+    },
+    {
+      "item": "shrekraft:ItemPeeledOnion"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "shrekraft:ItemOnionStew"
+  }
+}

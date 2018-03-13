@@ -8,16 +8,22 @@ public class shrekraftItems {
     public static Item ItemCottonSwab = new ItemCottonSwab("ItemCottonSwab");
     public static Item ItemEarwax = new shrekraftBaseItem("ItemEarwax");
     public static Item ItemOnion = new ItemOnion();
+    public static Item ItemOnionStew = new ItemOnionStew();
+    public static Item ItemPeeledOnion = new ItemPeeledOnion("ItemPeeledOnion");
 
 
     public static void register(IForgeRegistry<Item> registry) {
         registry.registerAll(
                 ItemCottonSwab,
                 ItemEarwax,
-                ItemOnion);
+                ItemOnion,
+                ItemPeeledOnion,
+                ItemOnionStew);
         ((shrekraftBaseItem)ItemCottonSwab).registerItemModel(ItemCottonSwab);
         ((shrekraftBaseItem)ItemEarwax).registerItemModel(ItemEarwax);
         ((ItemOnion)ItemOnion).registerItemModel(ItemOnion);
+        ((ItemOnionStew) ItemOnionStew).registerItemModel(ItemOnionStew);
+        ((ItemPeeledOnion) ItemPeeledOnion).registerItemModel(ItemPeeledOnion);
 
     }
 
