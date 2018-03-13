@@ -1,9 +1,7 @@
 package com.jesseboogaard.shrekraft.items;
 
-import com.jesseboogaard.shrekraft.blocks.shrekraftBlocks;
 import com.jesseboogaard.shrekraft.shrekraft;
 import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.init.Blocks;
 import net.minecraft.item.*;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;

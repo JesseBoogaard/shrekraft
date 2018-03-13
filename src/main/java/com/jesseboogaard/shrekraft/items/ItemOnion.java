@@ -13,10 +13,10 @@ import javax.annotation.Nullable;
 import java.util.List;
 
 
-public class ItemOnion extends ItemSeedFood {
+public class ItemOnion extends ItemSeeds {
 
     public ItemOnion() {
-        super(4, 0.6F, shrekraftBlocks.blockCropOnion, Blocks.FARMLAND);
+        super(shrekraftBlocks.blockCropOnion, Blocks.FARMLAND);
         setUnlocalizedName("ItemOnion");
         setRegistryName("ItemOnion");
         setCreativeTab(shrekraft.shrekraftTab);

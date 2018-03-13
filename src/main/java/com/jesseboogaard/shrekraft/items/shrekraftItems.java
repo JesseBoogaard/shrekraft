@@ -9,7 +9,7 @@ public class shrekraftItems {
     public static Item ItemEarwax = new shrekraftBaseItem("ItemEarwax");
     public static Item ItemOnion = new ItemOnion();
     public static Item ItemOnionStew = new ItemOnionStew();
-    public static Item ItemPeeledOnion = new ItemPeeledOnion("ItemPeeledOnion");
+    public static Item ItemPeeledOnion = new ItemPeeledOnion();
 
 
     public static void register(IForgeRegistry<Item> registry) {
