@@ -7,16 +7,17 @@ import net.minecraft.item.ItemSeeds;
 import net.minecraft.item.Item;
 
 
-public class ItemOnionSeed extends ItemSeeds {
+public class ItemOnion extends ItemSeeds {
 
-    public ItemOnionSeed() {
+    public ItemOnion() {
         super(shrekraftBlocks.blockCropOnion, Blocks.FARMLAND);
         setUnlocalizedName("ItemOnionSeed");
         setRegistryName("ItemOnionSeed");
+        setCreativeTab(shrekraft.shrekraftTab);
 
     }
 
     public void registerItemModel(Item item) {
-        shrekraft.proxy.registerItemRenderer(item, 0, "ItemOnionSeed");
+        shrekraft.proxy.registerItemRenderer(item, 0, "ItemOnion");
     }
 }
