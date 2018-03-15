@@ -5,9 +5,14 @@ item.ItemEarwax.name=Earwax
 item.ItemOnion.name=Onion
 item.ItemOnionStew.name=Onion Stew
 item.ItemPeeledOnion.name=Peeled Onion
+item.ItemPeat.name=Peat
 
 itemGroup.shrekraft=ShreKraft
 
 #Blocks
 tile.BlockCompactedEarwax.name=Compacted Earwax
 tile.BlockEarwaxCandle.name=Earwax Candle
+
+
+#Fluids
+fluid.FluidSludge=Sludge
