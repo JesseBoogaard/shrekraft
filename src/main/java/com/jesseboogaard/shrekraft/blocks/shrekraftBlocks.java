@@ -35,5 +35,6 @@ public class shrekraftBlocks {
     public static void registerModels() {
         blockCompactedEarwax.registerItemModel(Item.getItemFromBlock(blockCompactedEarwax));
         blockEarwaxCandle.registerItemModel(Item.getItemFromBlock(blockEarwaxCandle));
+        blockFluidSludge.render();
     }
 }
