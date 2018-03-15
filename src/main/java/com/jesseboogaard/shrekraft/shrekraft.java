@@ -8,6 +8,7 @@ import net.minecraft.item.ItemArmor;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -29,7 +30,10 @@ public class shrekraft {
     public static CommonProxy proxy;
 
     public static final CreativeTabs shrekraftTab = new shrekraftTab(CreativeTabs.getNextID(), "shrekraft");
-
+    static
+    {
+        FluidRegistry.enableUniversalBucket();
+    }
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
 
