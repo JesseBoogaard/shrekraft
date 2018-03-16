@@ -14,3 +14,4 @@
   9. Peat as fuel
   10. Iconic tracks from the movie(s) on music discs
   
+[See the latest changes and upcoming features here](https://trello.com/b/b0lniDs0/shrekraft)
