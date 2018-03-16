@@ -1,5 +1,4 @@
 package com.jesseboogaard.shrekraft.worldgen;
-
 import com.jesseboogaard.shrekraft.shrekraft;
 
 import java.util.Map;

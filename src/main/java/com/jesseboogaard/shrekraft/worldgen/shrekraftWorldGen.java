@@ -14,7 +14,6 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 
 public class shrekraftWorldGen extends WorldGenerator implements IWorldGenerator {
 
-
     static Random rand2 = new Random();
     @Override
     public void generate(Random rand, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator,
@@ -38,13 +37,12 @@ public class shrekraftWorldGen extends WorldGenerator implements IWorldGenerator
     }
 
     private void generateOverworld(World world, Random rand, int blockX, int blockZ) {
-        //if ((int) (Math.random() * 100) == 0)
-        //	{
-        int y = getGroundFromAbove(world, blockX, blockZ);
-        BlockPos pos = new BlockPos(blockX, y, blockZ);
-        WorldGenerator structure = new swampBaseGen();
-        structure.generate(world, rand, pos);
-        //}
+        if ((int) (Math.random() * 100) == 0) {
+            int y = getGroundFromAbove(world, blockX, blockZ);
+            BlockPos pos = new BlockPos(blockX, y, blockZ);
+            WorldGenerator structure = new swampBaseGen();
+            structure.generate(world, rand, pos);
+        }
     }
 
     private void generateNether(World world, Random rand, int chunkX, int chunkZ) {}

@@ -2,13 +2,13 @@ package com.jesseboogaard.shrekraft;
 
 import com.jesseboogaard.shrekraft.blocks.shrekraftBlocks;
 import com.jesseboogaard.shrekraft.worldgen.shrekraftWorldGen;
+import com.jesseboogaard.shrekraft.items.shrekraftItems;
+
 import net.minecraft.block.Block;
-import net.minecraft.init.Blocks;
-import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemArmor;
+import net.minecraft.creativetab.CreativeTabs;
+
 import net.minecraftforge.client.event.ModelRegistryEvent;
-import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fml.common.Mod;
@@ -17,12 +17,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.common.network.NetworkRegistry;
-import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraft.creativetab.CreativeTabs;
-import com.jesseboogaard.shrekraft.items.shrekraftItems;
 
 
 @Mod(modid="shrekraft", name=shrekraft.MODID, version=shrekraft.VERSION)
