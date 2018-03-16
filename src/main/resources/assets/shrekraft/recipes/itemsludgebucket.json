@@ -16,7 +16,10 @@
     }
   ],
   "result": {
-    "type": "forge:bucketfilled",
-    "fluid": "fluidsludge"
+    "nbt": "{FluidName:fluidsludge, Amount:1000}",
+    "item": "forge:bucketfilled",
+    "type": "minecraft:item_nbt",
+    "data": 0
+
   }
 }

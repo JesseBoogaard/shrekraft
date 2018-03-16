@@ -2,10 +2,12 @@
 #Items
 item.ItemCottonSwab.name=Cotton Swab
 item.ItemEarwax.name=Earwax
+item.ItemPeat.name=Peat
+item.ItemCompactor.name=Compactor
 item.ItemOnion.name=Onion
 item.ItemOnionStew.name=Onion Stew
 item.ItemPeeledOnion.name=Peeled Onion
-item.ItemPeat.name=Peat
+
 
 itemGroup.shrekraft=ShreKraft
 

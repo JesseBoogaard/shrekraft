@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "shrekraft:ItemCompactor"
+    },
+    {
+      "nbt": "{FluidName:fluidsludge, Amount:1000}",
+      "item": "forge:bucketfilled",
+      "type": "minecraft:item_nbt",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "shrekraft:ItemPeat",
+    "count": 2
+  }
+}
