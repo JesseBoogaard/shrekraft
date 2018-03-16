@@ -1,7 +1,9 @@
 package com.jesseboogaard.shrekraft;
 
 import com.jesseboogaard.shrekraft.blocks.shrekraftBlocks;
+import com.jesseboogaard.shrekraft.worldgen.shrekraftWorldGen;
 import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
@@ -23,8 +25,11 @@ import net.minecraft.creativetab.CreativeTabs;
 import com.jesseboogaard.shrekraft.items.shrekraftItems;
 
 
-@Mod(modid="shrekraft", name="ShreKraft", version="0.0.1")
+@Mod(modid="shrekraft", name=shrekraft.MODID, version=shrekraft.VERSION)
 public class shrekraft {
+
+    public static final String MODID = "shrekraft";
+    public static final String VERSION = "0.0.1";
 
     @SidedProxy(clientSide = "com.jesseboogaard.shrekraft.client.ClientProxy", serverSide = "com.jesseboogaard.shrekraft.CommonProxy")
     public static CommonProxy proxy;
@@ -41,7 +46,7 @@ public class shrekraft {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent e) {
-
+        GameRegistry.registerWorldGenerator(new shrekraftWorldGen(), 0);
 
     }
 
