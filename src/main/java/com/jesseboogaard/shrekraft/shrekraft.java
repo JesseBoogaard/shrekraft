@@ -24,7 +24,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class shrekraft {
 
     public static final String MODID = "shrekraft";
-    public static final String VERSION = "0.0.1";
+    public static final String VERSION = "0.0.2";
 
     @SidedProxy(clientSide = "com.jesseboogaard.shrekraft.client.ClientProxy", serverSide = "com.jesseboogaard.shrekraft.CommonProxy")
     public static CommonProxy proxy;
