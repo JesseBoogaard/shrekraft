@@ -12,6 +12,7 @@ import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraft.world.gen.structure.template.Template;
 import net.minecraftforge.fml.common.IWorldGenerator;
 
+
 public class shrekraftWorldGen extends WorldGenerator implements IWorldGenerator {
 
     static Random rand2 = new Random();
@@ -55,7 +56,7 @@ public class shrekraftWorldGen extends WorldGenerator implements IWorldGenerator
         while(!foundGround && y-- >= 31)
         {
             Block blockAt = world.getBlockState(new BlockPos(x,y,z)).getBlock();
-            foundGround =  blockAt == Blocks.WATER||blockAt == Blocks.FLOWING_WATER||blockAt == Blocks.GRASS || blockAt == Blocks.SAND || blockAt == Blocks.SNOW || blockAt == Blocks.SNOW_LAYER || blockAt == Blocks.GLASS||blockAt == Blocks.MYCELIUM;
+            foundGround =  blockAt == Blocks.GRASS;
         }
 
         return y;

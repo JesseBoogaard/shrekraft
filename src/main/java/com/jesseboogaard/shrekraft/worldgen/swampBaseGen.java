@@ -30,7 +30,7 @@ public class swampBaseGen extends WorldGenerator {
         WorldServer worldserver = (WorldServer) world;
         MinecraftServer minecraftserver = world.getMinecraftServer();
         TemplateManager templatemanager = worldserver.getStructureTemplateManager();
-        Template template = templatemanager.getTemplate(minecraftserver, new ResourceLocation(shrekraft.MODID + ":test"));
+        Template template = templatemanager.getTemplate(minecraftserver, new ResourceLocation(shrekraft.MODID + ":swampstruct"));
 
         if (template == null) {
             System.out.println("NO STRUCTURE");
