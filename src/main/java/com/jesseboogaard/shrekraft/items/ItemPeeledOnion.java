@@ -24,7 +24,7 @@ public class ItemPeeledOnion extends ItemFood {
     @Override
     public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn)
     {
-        tooltip.add("Onions have layers, so do Ogres.");
+        tooltip.add("Onions have layers. Ogres have layers.");
     }
 
     public void registerItemModel(Item item) {

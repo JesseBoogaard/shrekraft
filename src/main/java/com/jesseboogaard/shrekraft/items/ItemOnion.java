@@ -32,7 +32,7 @@ public class ItemOnion extends ItemSeeds {
     @Override
     public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn)
     {
-        tooltip.add("Onions have layers, so do Ogres.");
+        tooltip.add("Onions have layers. Ogres have layers.");
     }
 
     public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer player, EnumHand hand) {
