@@ -2,6 +2,7 @@ package com.jesseboogaard.shrekraft.items;
 
 import com.jesseboogaard.shrekraft.shrekraft;
 import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.*;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;

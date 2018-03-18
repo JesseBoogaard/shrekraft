@@ -1,0 +1,51 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cross"
+  },
+  "variants": {
+    "age": {
+      "0": {
+        "textures": {
+          "cross": "shrekraft:blocks/ginger/0"
+        }
+      },
+      "1": {
+        "textures": {
+          "cross": "shrekraft:blocks/ginger/1"
+        }
+      },
+      "2": {
+        "textures": {
+          "cross": "shrekraft:blocks/ginger/2"
+        }
+      },
+      "3": {
+        "textures": {
+          "cross": "shrekraft:blocks/ginger/3"
+        }
+      },
+      "4": {
+        "textures": {
+          "cross": "shrekraft:blocks/ginger/4"
+        }
+      },
+      "5": {
+        "textures": {
+          "cross": "shrekraft:blocks/ginger/5"
+        }
+      },
+      "6": {
+        "textures": {
+          "cross": "shrekraft:blocks/ginger/6"
+        }
+      },
+      "7": {
+        "textures": {
+          "cross": "shrekraft:blocks/ginger/7"
+        }
+      }
+    }
+  }
+
+}

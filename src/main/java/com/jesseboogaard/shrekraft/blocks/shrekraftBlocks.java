@@ -10,6 +10,7 @@ public class shrekraftBlocks {
 
     public static BlockCompactedEarwax blockCompactedEarwax = new BlockCompactedEarwax("BlockCompactedEarwax");
     public static BlockEarwaxCandle blockEarwaxCandle = new BlockEarwaxCandle("BlockEarwaxCandle");
+    public static BlockGingerBread blockGingerBread = new BlockGingerBread("BlockGingerBread");
     public static BlockCropOnion blockCropOnion = new BlockCropOnion();
     public static FluidSludge fluidSludge = new FluidSludge();
     public static BlockFluidSludge blockFluidSludge;
@@ -20,22 +21,24 @@ public class shrekraftBlocks {
         registry.registerAll(
                 blockCompactedEarwax,
                 blockEarwaxCandle,
+                blockGingerBread,
                 blockCropOnion,
                 blockFluidSludge,
                 blockCropGinger
         );
-
 
     }
 
     public static void registerItemBlocks(IForgeRegistry<Item> registry) {
         registry.registerAll(
                 blockCompactedEarwax.createItemBlock(),
-                blockEarwaxCandle.createItemBlock());
+                blockEarwaxCandle.createItemBlock(),
+                blockGingerBread.createItemBlock());
     }
 
     public static void registerModels() {
         blockCompactedEarwax.registerItemModel(Item.getItemFromBlock(blockCompactedEarwax));
+        blockGingerBread.registerItemModel(Item.getItemFromBlock(blockGingerBread));
         blockEarwaxCandle.registerItemModel(Item.getItemFromBlock(blockEarwaxCandle));
         blockFluidSludge.render();
     }

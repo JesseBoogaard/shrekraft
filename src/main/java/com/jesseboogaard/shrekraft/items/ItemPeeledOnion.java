@@ -2,6 +2,7 @@ package com.jesseboogaard.shrekraft.items;
 
 import com.jesseboogaard.shrekraft.shrekraft;
 import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;

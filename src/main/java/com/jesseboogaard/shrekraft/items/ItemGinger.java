@@ -3,6 +3,7 @@ package com.jesseboogaard.shrekraft.items;
 import com.jesseboogaard.shrekraft.blocks.shrekraftBlocks;
 import com.jesseboogaard.shrekraft.shrekraft;
 import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.*;
 import net.minecraft.world.World;
@@ -20,7 +21,6 @@ public class ItemGinger extends ItemSeeds {
         setUnlocalizedName("ItemGinger");
         setRegistryName("ItemGinger");
         setCreativeTab(shrekraft.shrekraftTab);
-
     }
 
     @SideOnly(Side.CLIENT)

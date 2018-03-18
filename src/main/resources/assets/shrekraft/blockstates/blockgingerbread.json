@@ -1,0 +1,14 @@
+{
+  "forge_marker": 1,
+  "defaults": { "textures": {
+    "all": "shrekraft:blocks/blockgingerbread"}
+  },
+  "variants": {
+    "normal": {
+      "model":"cube_all"
+    },
+    "inventory": {
+      "model": "cube_all"
+    }
+  }
+}

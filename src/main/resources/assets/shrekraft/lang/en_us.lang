@@ -18,7 +18,7 @@ itemGroup.shrekraft=ShreKraft
 #Blocks
 tile.BlockCompactedEarwax.name=Compacted Earwax
 tile.BlockEarwaxCandle.name=Earwax Candle
-tile.BlockGingerbread.name=Gingerbread
+tile.BlockGingerBread.name=Gingerbread
 
 
 #Fluids
