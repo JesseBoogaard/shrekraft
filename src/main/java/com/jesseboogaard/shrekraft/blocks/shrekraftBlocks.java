@@ -13,6 +13,7 @@ public class shrekraftBlocks {
     public static BlockCropOnion blockCropOnion = new BlockCropOnion();
     public static FluidSludge fluidSludge = new FluidSludge();
     public static BlockFluidSludge blockFluidSludge;
+    public static BlockCropGinger blockCropGinger = new BlockCropGinger();
     public static void register(IForgeRegistry<Block> registry) {
         FluidRegistry.registerFluid(fluidSludge);
         blockFluidSludge = new BlockFluidSludge();
@@ -20,7 +21,8 @@ public class shrekraftBlocks {
                 blockCompactedEarwax,
                 blockEarwaxCandle,
                 blockCropOnion,
-                blockFluidSludge
+                blockFluidSludge,
+                blockCropGinger
         );
 
 

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "shrekraft:ItemMortarAndPestle"
+    },
+    {
+      "item": "shrekraft:ItemGinger"
+    }
+  ],
+  "result": {
+    "item": "shrekraft:ItemGroundGinger",
+    "count": 8
+  }
+}

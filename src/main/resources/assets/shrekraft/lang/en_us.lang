@@ -4,9 +4,13 @@ item.ItemCottonSwab.name=Cotton Swab
 item.ItemEarwax.name=Earwax
 item.ItemPeat.name=Peat
 item.ItemCompactor.name=Compactor
+item.ItemMortarAndPestle.name=Mortar & Pestle
 item.ItemOnion.name=Onion
-item.ItemOnionStew.name=Onion Stew
 item.ItemPeeledOnion.name=Peeled Onion
+item.ItemOnionStew.name=Onion Stew
+item.ItemGinger.name=Ginger
+item.ItemGroundGinger.name=Ground Ginger
+item.ItemGingerbreadCookie.name= Gingerbread Cookie
 
 
 itemGroup.shrekraft=ShreKraft
@@ -14,6 +18,7 @@ itemGroup.shrekraft=ShreKraft
 #Blocks
 tile.BlockCompactedEarwax.name=Compacted Earwax
 tile.BlockEarwaxCandle.name=Earwax Candle
+tile.BlockGingerbread.name=Gingerbread
 
 
 #Fluids
