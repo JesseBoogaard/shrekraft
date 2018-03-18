@@ -22,7 +22,7 @@ import net.minecraft.world.gen.structure.template.Template;
 import net.minecraft.world.gen.structure.template.TemplateManager;
 import net.minecraftforge.common.BiomeDictionary;
 
-public class swampBaseGen extends WorldGenerator {
+public class gingerStructGen extends WorldGenerator {
     Random r2 = new Random();
 
     int r;
@@ -32,7 +32,7 @@ public class swampBaseGen extends WorldGenerator {
         WorldServer worldserver = (WorldServer) world;
         MinecraftServer minecraftserver = world.getMinecraftServer();
         TemplateManager templatemanager = worldserver.getStructureTemplateManager();
-        Template template = templatemanager.getTemplate(minecraftserver, new ResourceLocation(sherkraftInfo.RESOURCE_LOCATION + ":swampstruct"));
+        Template template = templatemanager.getTemplate(minecraftserver, new ResourceLocation(sherkraftInfo.RESOURCE_LOCATION + ":gingerstruct"));
 
         if (template == null) {
             System.out.println("NO STRUCTURE");
@@ -44,7 +44,7 @@ public class swampBaseGen extends WorldGenerator {
             BlockPos target = world.getTopSolidOrLiquidBlock(position);
             Biome biome = world.getBiome(target);
 
-            if (BiomeDictionary.hasType(biome, BiomeDictionary.Type.SWAMP)) {
+            if (BiomeDictionary.hasType(biome, BiomeDictionary.Type.PLAINS)) {
 
                 IBlockState iblockstate = world.getBlockState(position);
                 world.notifyBlockUpdate(position, iblockstate, iblockstate, 3);
