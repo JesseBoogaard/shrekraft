@@ -11,6 +11,7 @@ public class shrekraftBlocks {
     public static BlockCompactedEarwax blockCompactedEarwax = new BlockCompactedEarwax("BlockCompactedEarwax");
     public static BlockEarwaxCandle blockEarwaxCandle = new BlockEarwaxCandle("BlockEarwaxCandle");
     public static BlockGingerBread blockGingerBread = new BlockGingerBread("BlockGingerBread");
+    public static BlockPeat blockPeat = new BlockPeat("BlockPeat");
     public static BlockCropOnion blockCropOnion = new BlockCropOnion();
     public static FluidSludge fluidSludge = new FluidSludge();
     public static BlockFluidSludge blockFluidSludge;
@@ -22,6 +23,7 @@ public class shrekraftBlocks {
                 blockCompactedEarwax,
                 blockEarwaxCandle,
                 blockGingerBread,
+                blockPeat,
                 blockCropOnion,
                 blockFluidSludge,
                 blockCropGinger
@@ -33,12 +35,14 @@ public class shrekraftBlocks {
         registry.registerAll(
                 blockCompactedEarwax.createItemBlock(),
                 blockEarwaxCandle.createItemBlock(),
-                blockGingerBread.createItemBlock());
+                blockGingerBread.createItemBlock(),
+                blockPeat.createItemBlock());
     }
 
     public static void registerModels() {
         blockCompactedEarwax.registerItemModel(Item.getItemFromBlock(blockCompactedEarwax));
         blockGingerBread.registerItemModel(Item.getItemFromBlock(blockGingerBread));
+        blockPeat.registerItemModel(Item.getItemFromBlock(blockPeat));
         blockEarwaxCandle.registerItemModel(Item.getItemFromBlock(blockEarwaxCandle));
         blockFluidSludge.render();
     }
