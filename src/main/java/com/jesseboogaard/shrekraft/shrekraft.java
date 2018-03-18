@@ -20,16 +20,14 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 
-@Mod(modid="shrekraft", name=shrekraft.MODID, version=shrekraft.VERSION)
+@Mod(modid=sherkraftInfo.MOD_ID, name=sherkraftInfo.NAME, version=sherkraftInfo.VERSION)
 public class shrekraft {
 
-    public static final String MODID = "shrekraft";
-    public static final String VERSION = "0.0.2";
 
     @SidedProxy(clientSide = "com.jesseboogaard.shrekraft.client.ClientProxy", serverSide = "com.jesseboogaard.shrekraft.CommonProxy")
     public static CommonProxy proxy;
 
-    public static final CreativeTabs shrekraftTab = new shrekraftTab(CreativeTabs.getNextID(), "shrekraft");
+    public static final CreativeTabs shrekraftTab = new shrekraftTab(CreativeTabs.getNextID(), sherkraftInfo.MOD_ID);
     static
     {
         FluidRegistry.enableUniversalBucket();

@@ -1,4 +1,5 @@
 package com.jesseboogaard.shrekraft.worldgen;
+import com.jesseboogaard.shrekraft.sherkraftInfo;
 import com.jesseboogaard.shrekraft.shrekraft;
 
 import java.util.Map;
@@ -31,7 +32,7 @@ public class swampBaseGen extends WorldGenerator {
         WorldServer worldserver = (WorldServer) world;
         MinecraftServer minecraftserver = world.getMinecraftServer();
         TemplateManager templatemanager = worldserver.getStructureTemplateManager();
-        Template template = templatemanager.getTemplate(minecraftserver, new ResourceLocation(shrekraft.MODID + ":swampstruct"));
+        Template template = templatemanager.getTemplate(minecraftserver, new ResourceLocation(sherkraftInfo.RESOURCE_LOCATION + ":swampstruct"));
 
         if (template == null) {
             System.out.println("NO STRUCTURE");
