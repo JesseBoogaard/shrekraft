@@ -6,18 +6,17 @@ import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.minecraft.world.biome.Biome;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraft.world.gen.structure.template.Template;
-import net.minecraftforge.common.BiomeDictionary;
 import net.minecraftforge.fml.common.IWorldGenerator;
 
 
 public class shrekraftWorldGen extends WorldGenerator implements IWorldGenerator {
 
     static Random rand2 = new Random();
+
     @Override
     public void generate(Random rand, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator,
                          IChunkProvider chunkProvider) {
@@ -43,9 +42,12 @@ public class shrekraftWorldGen extends WorldGenerator implements IWorldGenerator
         if ((int) (Math.random() * 100) == 0) {
             int y = getGroundFromAbove(world, blockX, blockZ);
             BlockPos pos = new BlockPos(blockX, y, blockZ);
-            WorldGenerator structure = new swampBaseGen();
-            structure.generate(world, rand, pos);
+            WorldGenerator swampstruct = new swampStructGen();
+            swampstruct.generate(world, rand, pos);
+            WorldGenerator gingerstruct = new gingerStructGen();
+            gingerstruct.generate(world, rand, pos);
         }
+
     }
 
     private void generateNether(World world, Random rand, int chunkX, int chunkZ) {}
