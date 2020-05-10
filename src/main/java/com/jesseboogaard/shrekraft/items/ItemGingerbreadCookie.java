@@ -15,7 +15,7 @@ import java.util.List;
 
 public class ItemGingerbreadCookie extends ItemFood {
     public ItemGingerbreadCookie() {
-        super(2, 0.2F, false);
+        super(3, 0.3F, false);
         setUnlocalizedName("ItemGingerbreadCookie");
         setRegistryName("ItemGingerbreadCookie");
         setCreativeTab(shrekraft.shrekraftTab);
